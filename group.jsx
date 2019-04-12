@@ -4,10 +4,9 @@ if (documents.length == 0) {
 	alert("no file found");
 } else {
 	var setName = prompt("输入分组名", "");
-	if (setName != null) {
+	if (setName) {
 		var docRef = activeDocument;
 		var layers = docRef.layerSets;
-
 		if (layers.length == 0) {
 			alert("no group found");
 		} else {
