@@ -11,7 +11,7 @@ if (documents.length == 0) {
 			alert("no group found");
 		} else {
 			for (var i = 0; i < layers.length; i++) {
-				layers[i].name = setName + [i];
+				layers[i].name = setName + "_"+[i];
 			}
 		}
 	}
